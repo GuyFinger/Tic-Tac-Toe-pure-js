@@ -1,7 +1,7 @@
 function resetbtn() {
   let xtype = document.getElementById("myCanvas");
   let xtx = xtype.getContext("2d");
-
+ 
   winOptions = [
     ["FLAG1", "FLAG2", "FLAG3"],
     ["FLAG4", "FLAG5", "FLAG6"],
@@ -43,6 +43,7 @@ function drawCircle(e, f, g, h) {
   ctx.beginPath();
   ctx.arc(e, f, 50, g, h * Math.PI);
   ctx.stroke();
+  console.log("drawcircles");
 }
 function drawX(j, z) {
   let xtype = document.getElementById("myCanvas");
