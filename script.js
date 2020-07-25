@@ -26,6 +26,7 @@ function drawLine(a, b, c, d, ltx) {
   ltx.moveTo(a, b);
   ltx.lineTo(c, d);
   ltx.stroke();
+  console.log("drawlines");
 }
 
 function drawLines() {
