@@ -1,0 +1,40 @@
+#bc {
+    height: 100vh;
+}
+
+.header {
+    background: rgb(119, 149, 210);
+    background: linear-gradient(90deg, rgba(119, 149, 210, 1) 0%, rgba(66, 103, 178, 1) 69%);
+    height: 100%;
+}
+
+
+
+
+p>span {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+.markers {
+    height: 100%;
+    width: 100%;
+}
+
+canvas {
+    position: relative;
+}
+
+.canvas-wrapper {
+    position: relative;
+}
+.coverUp{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+

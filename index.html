@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Million Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <!-- header shadow -->
+    <div class="header container-fluid p-0 shadow-lg mb-3 bg-white rounded p-0">
+        <!-- page header -->
+        <div class="container-fluid d-flex flex-column align-items-center p-0">
+            <h1 class="display-1 text-light">Welcome!</h1>
+            <h4 class="text-light">you have just entered to the one million Tic Tac Toe game out there!</h4>
+
+        </div>
+    </div>
+    <!-- page shadow -->
+    <div id="bc" class="container shadow-lg p-3 mb-5 bg-white rounded p-0">
+        <!-- page content -->
+        <div class="container-fluid d-flex flex-column align-items-center p-0">
+
+            <div class="content">
+                <p class="pt-5 lead">So... it's goes like that, each turn you put your marker anywhere on the grid. if
+                    you
+                    got 3 markers
+                    in a <span>row</span>, <span>col</span> or <span>diagonal line</span> , you won. it's that simple.
+                </p>
+            </div>
+            <p class="display-1 m-0 text-black-50">.</p>
+
+            <!-- tic tac toe grid canvas -->
+            <div class="canvas-wrapper">
+                <div class="coverUp"></div>
+
+                <canvas class="shadow-lg p-3 mb-5 bg-white rounded p-0 mt-5" id="myCanvas" width="500" height="500"
+                    style="border:1px solid #d3d3d3;"></canvas>
+            </div>
+            <button id="btn" class="btn btn-secondary btn-lg ">Reset</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
